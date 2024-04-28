@@ -2,7 +2,7 @@
 
 ## Introdução
 ------------
-O aplicativo 'ChatBot: Leitor de PDF's' é uma aplicação Python que permite conversar com vários documentos PDF. Você pode fazer perguntas sobre o conteúdo contido nos PDFs e, usando linguagem natural, o aplicativo fornecerá respostas com base nos documentos fornecidos. Este aplicativo utiliza um modelo de linguagem natural para gerar respostas precisas para as perguntas fornecidas. 
+O aplicativo "ChatBot: Leitor de PDF's" é uma aplicação Python que permite conversar com vários documentos PDF. Você pode fazer perguntas sobre o conteúdo contido nos PDFs e, usando linguagem natural, o aplicativo fornecerá respostas com base nos documentos fornecidos. Este aplicativo utiliza um modelo de linguagem natural para gerar respostas precisas para as perguntas fornecidas. 
 Obs: note que o aplicativo só responderá à perguntas relacionadas aos PDFs carregados.
 
 ## Funcionamento
@@ -15,13 +15,13 @@ O aplicativo segue estes passos para fornecer as respostas:
 
 3. Modelo de Linguagem: O aplicativo utiliza um modelo de linguagem para gerar representações vetoriais (embeddings) das partes fragmentadas do texto.
 
-4. Correspondência de Similaridade: Quando você faz uma pergunta, o modelo de linguagem transforma sua pergunta em uma base vetorial e à compara com o banco de dados vetoriais gerados no passo '3'. E assim, identifica os fragmentos que mais possuam uma similaridade semântica.
+4. Correspondência de Similaridade: Quando você faz uma pergunta, o modelo de linguagem transforma sua pergunta em uma base vetorial e a compara com o banco de dados vetoriais gerados no passo '3'. E assim, identifica os fragmentos que mais possuam uma similaridade semântica.
 
 5. Geração de Resposta: As partes selecionadas são passadas para o modelo de linguagem, que gera uma resposta com base no conteúdo previamente carregados dos PDFs.
 
 ## Dependências e Instalações
 ------------
-Para instalar o aplicativo ChatBot: Leitor de PDF's, siga estes passos:
+Para instalar o aplicativo "ChatBot: Leitor de PDF's", siga estes passos:
 
 1. Clone este repositório para sua máquina local.
 
