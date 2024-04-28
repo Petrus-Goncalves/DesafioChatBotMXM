@@ -35,6 +35,8 @@ Para instalar o aplicativo "ChatBot: Leitor de PDF's", siga estes passos:
       OPENAI_API_KEY = sua_chave_de_api
    ```
 
+Obs: Renomeie o arquivo ".env.example' para somento '.env'
+
 ## Utilização
 ------------
 Para utilização do "ChatBot: Leitor de PDF's", siga os passos abaixo:
